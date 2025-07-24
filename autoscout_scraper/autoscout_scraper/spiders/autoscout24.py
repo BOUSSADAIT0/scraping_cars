@@ -2,13 +2,6 @@ import scrapy
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 from scrapy.exceptions import CloseSpider
 
-class Autoscout24Spider(scrapy.Spider):
-    name = "autoscout24"
-    allowed_domains = ["autoscout24.fr"]
-    start_urls = [
-        "https://www.autoscout24.fr/lst?sort=standard&desc=0&ustate=N,U&atype=C&cy=F&cat=&source=homepage_search-mask&page=1"
-    ]
-
   
 class Autoscout24Spider(scrapy.Spider):
     name = "autoscout24"
