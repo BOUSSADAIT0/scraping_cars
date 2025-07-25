@@ -63,7 +63,7 @@ autoscraper/
 
 3. **Installer les dépendances**
    ```bash
-   pip install scrapy pymongo
+   pip install scrapy pymongo itemloaders
    ```
 
 4. **Configurer MongoDB Atlas**
