@@ -1,12 +1,25 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
+# items.py
 import scrapy
 
-
-class AutoscoutScraperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class Autoscout24Item(scrapy.Item):
+    URL = scrapy.Field()
+    Marque = scrapy.Field()
+    Modèle = scrapy.Field()
+    Prix = scrapy.Field()
+    Carrosserie = scrapy.Field()
+    Etat = scrapy.Field()
+    Sieges = scrapy.Field()
+    Portes = scrapy.Field()
+    Annonce_ID = scrapy.Field()
+    Garantie = scrapy.Field()
+    Kilometrage = scrapy.Field()
+    Annee = scrapy.Field()
+    Puissance = scrapy.Field()
+    Transmission = scrapy.Field()
+    Cylindrée = scrapy.Field()
+    CO2 = scrapy.Field()
+    Type_peinture = scrapy.Field()
+    Couleur_interieur = scrapy.Field()
+    Couleur_originale = scrapy.Field()
+    Carburant = scrapy.Field()
+    position_page = scrapy.Field()
