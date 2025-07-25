@@ -15,8 +15,6 @@ Ce projet consiste à :
 - Membre 2 : [Nom 2]
 - Membre 3 : [Nom 3]
 
-> Remplacez ces lignes avec vos vrais noms.
-
 ---
 
 ## 🧰 Technologies utilisées
